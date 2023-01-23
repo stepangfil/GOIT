@@ -1,13 +1,11 @@
 package ua.goit.module8;
 
-public class Circle extends Shape {
-    private String name;
-
-    public Circle(String name) {
-        super(name);
+public class Circle extends  Shape {
+    public Circle () {
+        super("Circle");
     }
 
-    public String getName () {
-        return name;
-    }
+
+
+
 }
