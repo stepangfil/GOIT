@@ -35,6 +35,7 @@ public class MyQueue<E> {
     public void clear() {
         firstElem = null;
         lastElem = null;
+        listSize = 0;
     }
 
     public int size() {
