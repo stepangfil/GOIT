@@ -9,7 +9,7 @@ import java.util.List;
 
 public class CreateJson {
     public static void main(String[] args) throws IOException {
-        File inputFile = new File("src/main/resources/file");
+        File inputFile = new File("src/main/resources/file1");
         File outputFile = new File("src/main/resources/user.json");
 
         FileReader fileReader = new FileReader(inputFile);

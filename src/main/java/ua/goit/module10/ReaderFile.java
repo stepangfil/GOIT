@@ -13,7 +13,7 @@ public class ReaderFile {
     }
 
     public void fileReader() throws IOException {
-        String absolutePath = "/Users/andreyfilimonov21/Documents/GOIT/GOIT/module10/src/main/resources/file";
+        String absolutePath = "src/main/resources/file2";
         String regex1 = "\\d{3}-\\d{3}-\\d{4}";
         String regex2 = "\\((\\d{3})\\)\\s\\d{3}-\\d{4}";
 

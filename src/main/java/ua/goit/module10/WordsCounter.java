@@ -1,12 +1,8 @@
 package ua.goit.module10;
 
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-
 import java.io.*;
 import java.util.*;
 import java.util.Map.Entry;
-import java.util.regex.Pattern;
 import java.util.stream.Stream;
 
 public class WordsCounter {
